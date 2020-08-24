@@ -7,33 +7,33 @@
  *
  **/
 
-package Java_OOM.OOM_concepts;
+// package Java_OOM.OOM_concepts;
 
 public class Polymorphism {
 
     // This sum() takes two int parameters
-	public int sum(int x, int y)		// 2 int type arguments
+	public int sum(final int x, final int y) // 2 int type arguments
     {
         return (x + y);
     }
 
     // Overloaded sum().
     // This sum() takes three int parameters
-    public int sum(int x,int y,int z)		//3 int type arguments
+    public int sum(final int x, final int y, final int z) // 3 int type arguments
     {
-        	return (z - x + y );
+        return (z - x + y);
     }
 
     // Overloaded sum().
     // This sum() takes two double parameters
-    public double sum(double x, double y)		//double type arguments
+    public double sum(final double x, final double y) // double type arguments
     {
         return (x + y);
     }
 
-	public static void main(String[] args) {
-		//
-		Polymorphism s = new Polymorphism();
+    public static void main(final String[] args) {
+        //
+        final Polymorphism s = new Polymorphism();
 
         System.out.println(s.sum(100, 220));
         System.out.println(s.sum(100, 220, 333));
