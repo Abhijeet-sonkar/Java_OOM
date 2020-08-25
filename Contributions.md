@@ -11,9 +11,6 @@
   <Purpose of the program>
 */  
 
-  package Java_OOM.<Subfolder_name>;
-//package Java_OOM.Classes_And_Objects;  ---  [For Example]
-
 public class <New_Class_Name>
 {
     public static void main (String[] args)
